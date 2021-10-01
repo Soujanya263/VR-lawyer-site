@@ -1,0 +1,125 @@
+body {
+  background-color: #F9F3F3;
+}
+
+.navbar {
+  background-color: #E7D4B5;
+}
+.navbar-title {
+  display: flex;
+  gap: 10px;
+  color: #170055;
+}
+
+ .mainImg {
+   background-color: #03506F;
+   position: relative;
+   text-align: center;
+   padding: 500px;
+ }
+ .m-image {
+   margin-top: 10px;
+   filter: blur(10px);
+ }
+ .m-text {
+   position: absolute;
+   top: 50%;
+   left: 25%;
+   transform: translate(-50%, -50%);
+   color: white;
+ }
+ @media (min-width: 768px) {
+   * {
+     box-sizing: border-box;
+   }
+   .mainImg {
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+     justify-content: center;
+     padding: 20px;
+   }
+   .m-image {
+     width: 40%;
+     padding: 30px;
+     flex: 50%;
+     text-align: center;
+     justify-content: center;
+   }
+   .m-content {
+     color: white;
+     padding-top: 5%;
+     flex: 50%;
+     text-align: center;
+     justify-content: center;
+   }
+ }
+
+.form-main {
+  width: 100%;
+  background-image: url("https://thumbs.dreamstime.com/b/gavel-scales-justice-law-books-judge-court-66558437.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.form-page {
+  padding: 30px 200px;
+  margin: 30px;
+  color: white;
+}
+
+.sub-button {
+  color: white;
+}
+
+
+.explore-content1 {
+  background-color: #3D2C8D;
+  color: white;
+  padding:30px 200px 30px 200px;
+  text-align: center;
+}
+
+.list {
+  padding-left: 200px;
+  text-align: left;
+}
+
+.explore-content2 {
+  background-color: #916BBF;
+  color: white;
+  padding:30px 200px 30px 200px;
+  text-align: center;
+}
+
+.explore-content3 {
+  background-color: #C996CC;
+  color: white;
+  padding:30px;
+  text-align: center;
+
+}
+.abtImg {
+  border-radius: 30px;
+}
+.abt-content {
+  padding: 30px 80px;
+}
+
+.footer {
+  background-color: #2A0944;
+  color: white;
+  text-align: center;
+}
+
+.ftr-text {
+  opacity: .4;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
